@@ -6,6 +6,7 @@ import Approach from "./components/Approach/Approach";
 import Platform from "./components/Platform/Platform";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import Investments from "./components/Investments/Investments";
+import Opportunites from "./components/Opportunities/Opportunities";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <Platform />
         <ImageGallery />
         <Investments />
+        <Opportunites />
       </div>
     );
   }
