@@ -1,0 +1,62 @@
+.navbar {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1680px;
+  display: block;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2.5rem;
+    width: 120rem;
+  }
+
+  &__logo {
+    font-size: 2.4rem;
+
+    span {
+      color: $color-blue;
+      text-transform: uppercase;
+    }
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    color: $color-link-grey;
+    font-size: 1.4rem;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 0.9rem 1.4rem;
+    cursor: pointer;
+
+    @include respond(tab-land) {
+      padding: 0.9rem 1.2rem;
+    }
+
+    &--inverted {
+      margin-left: 0.7rem;
+      background-color: $color-blue;
+      color: #fff;
+      border-radius: 4px;
+      padding: 1.3rem 1.8rem;
+      border: 1px solid $color-blue;
+      transition: 0.3s all;
+
+      &:hover {
+        color: $color-blue;
+        background-color: #fff;
+      }
+    }
+  }
+}

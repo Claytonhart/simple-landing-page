@@ -1,0 +1,27 @@
+@import "styles/mixins";
+@import "styles/base";
+@import "styles/variables";
+@import "styles/typography";
+
+// COMPONENTS
+
+// NAVBAR
+@import "styles/components/navbar";
+
+// LANDING
+@import "styles/components/landing/landing";
+
+// ABOUT
+@import "styles/components/about/about";
+
+// APPROACH
+@import "styles/components/approach/approach";
+
+// PLATFORM
+@import "styles/components/platform/platform";
+
+// IMAGE GALLERY
+@import "styles/components/imagegallery/imagegallery";
+
+// INVESTMENTS
+@import "styles/components/investments/investments";

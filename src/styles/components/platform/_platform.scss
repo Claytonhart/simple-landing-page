@@ -1,0 +1,86 @@
+.platform {
+  width: 70%;
+  margin: 0 auto;
+  padding: 6rem 0;
+  text-align: center;
+
+  &__background {
+    background-color: #fff;
+  }
+
+  &__header {
+    font-size: 3rem;
+    font-weight: 300;
+    color: $color-text-black;
+    font-family: inherit;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+
+  &__desc {
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: $color-text-black;
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    display: flex;
+    margin-top: 4.5rem;
+  }
+}
+
+.platform-img-container {
+  flex: 1;
+  &__img {
+    width: 40rem;
+    height: 40rem;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  }
+}
+
+.platform-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+
+  &__header {
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $color-link-grey;
+    margin-bottom: 1.5rem;
+  }
+
+  &__desc {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: $color-link-grey;
+    line-height: 3rem;
+  }
+
+  &__button-container {
+    margin-top: 2.5rem;
+  }
+
+  &__button {
+    font-family: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color-blue;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 1.3rem 2.8rem;
+    border: 1px solid $color-blue;
+    transition: 0.3s all;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+      background-color: $color-blue;
+    }
+  }
+}

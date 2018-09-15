@@ -1,0 +1,66 @@
+.image-gallery-item {
+  background-size: cover;
+  // background-image: url(./images/main-banner-cropped.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 57rem;
+  color: #fff;
+  text-align: center;
+  display: inline-flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+
+  &__header {
+    font-size: 2.7rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  &__desc {
+    font-size: 2.7rem;
+    font-weight: 400;
+    width: 84rem;
+    margin: 0 auto;
+  }
+
+  &--1 {
+    background-image: url(./images/image-gallery-road.jpg);
+  }
+  &--2 {
+    background-image: url(./images/image-gallery-bridge.jpg);
+  }
+  &--3 {
+    background-image: url(./images/image-gallery-farm.jpg);
+  }
+}
+
+.image-gallery {
+  background: #fff;
+  padding: 1rem 0;
+}
+
+.image-gallery .slick-next {
+  right: 13rem;
+  z-index: 100;
+
+  &:before {
+    font-size: 10rem;
+    content: "\203A";
+  }
+}
+
+.image-gallery .slick-prev {
+  left: 5rem;
+  z-index: 100;
+
+  &:before {
+    font-size: 10rem;
+    content: "\2039";
+  }
+}
+
+.image-gallery .slick-dots {
+  bottom: 5.8rem;
+}

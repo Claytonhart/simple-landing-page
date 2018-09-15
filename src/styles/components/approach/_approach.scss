@@ -1,0 +1,89 @@
+.approach {
+  clip-path: polygon(100% 0, 100% 87%, 50% 100%, 0 87%, 0 9%);
+  background-color: $color-blue;
+  padding-top: 12rem;
+  padding-bottom: 10rem;
+  color: #fff;
+  text-align: center;
+
+  &__container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  &__background {
+    background: #fff;
+  }
+
+  &__header {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+
+  &__paragraph {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+
+    &:first-of-type {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__button-container {
+    margin-top: 8rem;
+  }
+
+  &__button {
+    font-family: inherit;
+    font-weight: bold;
+    color: $color-blue;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 1.3rem 1.8rem;
+    border: 1px solid #fff;
+    transition: 0.3s all;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+      background-color: $color-blue;
+    }
+  }
+}
+
+.approach-items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.approach-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 23%;
+  background-color: $color-grey-item-background;
+
+  &__img {
+    height: 16rem;
+  }
+
+  &__header {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $color-text-black;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__desc {
+    width: 80%;
+    margin: 2rem auto;
+    font-size: 1.6rem;
+    color: $color-link-grey;
+    line-height: 2.6rem;
+  }
+}

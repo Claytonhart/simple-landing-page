@@ -1,0 +1,37 @@
+main {
+  margin-top: 9.6rem;
+  background: #fff;
+}
+
+.banner-image {
+  background-size: cover;
+  background-image: url(./images/main-banner-cropped.jpg);
+  background-repeat: no-repeat;
+  background-position: 25% 10%;
+  min-width: 100%;
+  height: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+  color: #fff;
+  text-align: center;
+
+  &__text {
+    max-width: 60%;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    font-size: 5.6rem;
+    font-weight: 300;
+  }
+
+  &__arrow {
+    color: #fff !important;
+    font-size: 4rem;
+  }
+
+  &__info {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+}

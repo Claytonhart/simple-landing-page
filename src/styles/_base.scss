@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // Defines what 1 rem is
+  font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
+
+  // @include respond(big-desktop) {
+  //   font-size: 75%; // 1 rem = 12px, 12/16 = 75%
+  // }
+
+  @include respond(tab-land) {
+    font-size: 56.25%; // 1rem = 9px, 9/16 = 56.25%
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%; // 1rem = 8px, 8/16 = 50%
+  }
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  background-image: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.7));
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+}

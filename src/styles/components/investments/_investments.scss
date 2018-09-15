@@ -1,0 +1,23 @@
+.investments {
+  background-color: #fff;
+  text-align: center;
+  padding: 3rem 0;
+
+  &__header {
+    font-family: inherit;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: #000;
+    text-transform: uppercase;
+  }
+
+  &__desc {
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 3.2rem;
+    color: #000;
+    width: 45%;
+    margin: 2rem auto;
+  }
+}
