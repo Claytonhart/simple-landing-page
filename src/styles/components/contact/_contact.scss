@@ -1,0 +1,111 @@
+.contact {
+  background-color: $color-grey-background;
+  text-align: center;
+  position: relative;
+
+  &__container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__top-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-bottom: 17rem;
+  }
+
+  &__top-header {
+    color: $color-text-black;
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+
+  &__top-desc {
+    color: $color-text-black;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  &__top-button {
+    margin-left: 0.7rem;
+    background-color: $color-blue;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1.3rem 1.8rem;
+    border: 1px solid $color-blue;
+    transition: 0.3s all;
+    cursor: pointer;
+    font-weight: 700;
+
+    &:hover {
+      color: $color-blue;
+      background-color: #fff;
+    }
+  }
+
+  &__bottom-content {
+    background-color: $color-blue;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: absolute;
+    width: 70%;
+    bottom: -10rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &__bottom-header {
+    font-size: 2.4rem;
+    font-weight: 300;
+    font-family: inherit;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+  }
+
+  &__bottom-info-container {
+    margin-bottom: 3rem;
+  }
+
+  &__bottom-info {
+    display: inline-flex;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  &__bottom-us {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: inherit;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  &__bottom-links {
+    font-size: 2.2rem;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  &__left {
+    // flex: 1;
+    width: 40%;
+  }
+
+  &__middle {
+    border-right: 1px solid #d2dbe2;
+  }
+
+  &__right {
+    // flex: 1;
+    width: 40%;
+  }
+}
