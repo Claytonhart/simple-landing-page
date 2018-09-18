@@ -7,7 +7,7 @@
   &__container {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: $container-width;
     margin: 0 auto;
   }
 
