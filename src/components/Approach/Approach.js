@@ -32,9 +32,7 @@ class Approach extends Component {
                   src={approachItem1}
                   alt="1"
                 />
-                <h5 className="approach-item__header">
-                  Identify Opportunities
-                </h5>
+                <h5 className="approach-item__header">Do Something</h5>
                 <p className="approach-item__desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Recusandae quia eaque totam vel harum quidem natus modi esse
@@ -47,9 +45,7 @@ class Approach extends Component {
                   src={approachItem2}
                   alt="2"
                 />
-                <h5 className="approach-item__header">
-                  Optimize Capital Structure
-                </h5>
+                <h5 className="approach-item__header">Something Else</h5>
                 <p className="approach-item__desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Recusandae quia eaque totam vel harum quidem natus modi esse
@@ -61,7 +57,7 @@ class Approach extends Component {
                   src={approachItem3}
                   alt="3"
                 />
-                <h5 className="approach-item__header">Create Value</h5>
+                <h5 className="approach-item__header">Another thing</h5>
                 <p className="approach-item__desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Recusandae quia eaque totam vel harum quidem natus modi esse
@@ -74,7 +70,7 @@ class Approach extends Component {
                   src={approachItem4}
                   alt="4"
                 />
-                <h5 className="approach-item__header">Stabilize Cashflow</h5>
+                <h5 className="approach-item__header">One more thing</h5>
                 <p className="approach-item__desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Recusandae quia eaque totam vel harum quidem natus modi esse
@@ -84,7 +80,7 @@ class Approach extends Component {
             </div>
             <div className="approach__button-container">
               <button className="approach__button">
-                Learn more about our investment approach
+                Learn more about our example page
               </button>
             </div>
           </div>

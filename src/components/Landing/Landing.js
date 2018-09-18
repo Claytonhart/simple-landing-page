@@ -7,8 +7,7 @@ class Landing extends Component {
       <main>
         <div className="banner-image">
           <h1 className="banner-image__text">
-            AN INNOVATIVE ASSET MANAGER WITH A PROVEN TRACK RECORD IN WESTERN
-            CANADA
+            A LONG DESCRIPTION ABOUT OUR COMPANY AND WHAT WE STAND FOR
           </h1>
           <div className="banner-image__scroll">
             <AnchorLink name="scroll-down" href="#about" offset="80">

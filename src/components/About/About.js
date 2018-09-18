@@ -10,7 +10,7 @@ class About extends Component {
     return (
       <section className="about" id="about">
         <div className="about-content-wrapper container">
-          <h1 className="about__header">Avenue living asset management</h1>
+          <h1 className="about__header">Example page business name</h1>
           <h3 className="about__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
             repudiandae, provident
@@ -23,17 +23,17 @@ class About extends Component {
                 <p>lorem ipsum dolor</p>
               </div>
               <div className="carousel-item">
-                <h3>1000 Words</h3>
+                <h3>4000 Places</h3>
                 <i className="fa fa-home" aria-hidden="true" />
                 <p>lorem ipsum dolor etc words</p>
               </div>
               <div className="carousel-item">
-                <h3>1000 Words</h3>
+                <h3>3 Things</h3>
                 <i className="fa fa-building" aria-hidden="true" />
                 <p>lorem ipsum dolor</p>
               </div>
               <div className="carousel-item">
-                <h3>1000 Words</h3>
+                <h3>923 Colors</h3>
                 <i className="fa fa-pagelines" aria-hidden="true" />
                 <p>lorem ipsum dolor etc etc</p>
               </div>

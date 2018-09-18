@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="contact__container container">
         <div className="contact__top-content">
           <div className="contact__left">
-            <h3 className="contact__top-header">Investment inquiries</h3>
+            <h3 className="contact__top-header">Something we do</h3>
             <p className="contact__top-desc">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
               voluptate
@@ -15,13 +15,13 @@ const Contact = () => {
           </div>
           <div className="contact__middle" />
           <div className="contact__right">
-            <h3 className="contact__top-header">Looking for your next home?</h3>
+            <h3 className="contact__top-header">Looking to do something?</h3>
             <p className="contact__top-desc">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
               voluptate
             </p>
             <button className="contact__top-button">
-              Looking for your next home?
+              Looking to do something?
             </button>
           </div>
         </div>

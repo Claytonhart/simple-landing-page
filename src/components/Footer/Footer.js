@@ -13,16 +13,16 @@ const Footer = () => {
           <p>2018 Example Page Ltd.</p>
         </div>
         <div className="footer__element">
-          <h4>explore avenue living</h4>
+          <h4>explore example page</h4>
           <p>home page</p>
           <p>about us</p>
           <p>community enagement</p>
           <p>our leadership</p>
         </div>
         <div className="footer__element">
-          <h4>asset management</h4>
+          <h4>something we do</h4>
           <p>our portfolio</p>
-          <p>investment offerings</p>
+          <p>job offerings</p>
           <p>contact us</p>
         </div>
         <div className="footer__element">

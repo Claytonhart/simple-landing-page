@@ -13,11 +13,11 @@ class Navbar extends Component {
             <ul className="navbar__links">
               <li className="navbar__item">About us</li>
               <li className="navbar__item">Portfolio</li>
-              <li className="navbar__item">Investment Offerings</li>
+              <li className="navbar__item">Something Else</li>
               <li className="navbar__item">News</li>
               <li className="navbar__item">Contact Us</li>
               <li className="navbar__item navbar__item--inverted">
-                Looking to rent an appartment?
+                Looking to do something?
               </li>
             </ul>
           </div>

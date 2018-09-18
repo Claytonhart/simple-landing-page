@@ -3,7 +3,7 @@ import React from "react";
 const Investments = () => {
   return (
     <section className="investments">
-      <h2 className="investments__header">Investment offerings</h2>
+      <h2 className="investments__header">What we do</h2>
       <p className="investments__desc">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dignissimos
         repellendus omnis odit sunt tempore! Enim quibusdam, facere molestias
