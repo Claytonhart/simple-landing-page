@@ -9,6 +9,7 @@ import Investments from "./components/Investments/Investments";
 import Opportunites from "./components/Opportunities/Opportunities";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
         <Opportunites />
         <Portfolio />
         <Contact />
+        <Footer />
       </div>
     );
   }
