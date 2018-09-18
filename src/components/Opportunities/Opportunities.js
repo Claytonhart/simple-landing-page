@@ -4,7 +4,7 @@ const Opportunities = () => {
   return (
     <section className="opportunities__background">
       <div className="opportunities">
-        <div className="opportunities__container">
+        <div className="opportunities__container container">
           <div className="opportunities__examples">
             <div className="opportunity">
               <h2 className="opportunity__header">exampleName</h2>

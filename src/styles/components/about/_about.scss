@@ -4,6 +4,7 @@
   text-align: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  overflow: hidden;
 
   &__header {
     font-size: 3rem;
@@ -17,6 +18,10 @@
     width: 40%;
     margin: 1.5rem auto;
     margin-bottom: 4rem;
+
+    @include respond(phone) {
+      width: 80%;
+    }
   }
 
   &__image-container {
@@ -31,7 +36,7 @@
 }
 
 .about-content-wrapper {
-  width: $container-width;
+  // width: $container-width;
   margin: 0 auto;
 }
 

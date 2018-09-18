@@ -5,7 +5,7 @@ import platformImg from "../../images/platform-img.jpg";
 const Platform = () => {
   return (
     <section className="platform__background">
-      <div className="platform">
+      <div className="platform container">
         <h2 className="platform__header">Our platform</h2>
         <h5 className="platform__desc">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias

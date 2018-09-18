@@ -23,6 +23,12 @@
     font-weight: 400;
     width: 84rem;
     margin: 0 auto;
+
+    @include respond(phone) {
+      font-size: 1.8rem;
+      max-width: 90%;
+      padding-bottom: 4rem;
+    }
   }
 
   &--1 {
@@ -42,7 +48,7 @@
 }
 
 .image-gallery .slick-next {
-  right: 13rem;
+  right: 8rem;
   z-index: 100;
 
   &:before {

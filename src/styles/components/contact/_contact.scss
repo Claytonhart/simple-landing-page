@@ -4,7 +4,7 @@
   position: relative;
 
   &__container {
-    width: $container-width;
+    // width: $container-width;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -57,9 +57,13 @@
     flex-direction: column;
     color: #fff;
     position: absolute;
-    width: $container-width;
+    // width: $container-width;
     bottom: -10rem;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+    @include respond(phone) {
+      bottom: -20rem;
+    }
   }
 
   &__bottom-header {
@@ -73,6 +77,12 @@
 
   &__bottom-info-container {
     margin-bottom: 4rem;
+
+    @include respond(phone) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__bottom-info {

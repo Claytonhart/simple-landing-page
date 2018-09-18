@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer__container">
+      <div className="footer__container container">
         <div className="footer__element footer__element--first">
           <h3>examplepage</h3>
           <p>Head Office</p>

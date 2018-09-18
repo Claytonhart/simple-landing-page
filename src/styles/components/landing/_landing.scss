@@ -18,11 +18,20 @@ main {
   color: #fff;
   text-align: center;
 
+  @include respond(phone) {
+    clip-path: none;
+  }
+
   &__text {
     max-width: 75%;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
     font-size: 5.6rem;
     font-weight: 300;
+
+    @include respond(phone) {
+      font-size: 3rem;
+      max-width: 90%;
+    }
   }
 
   &__arrow {

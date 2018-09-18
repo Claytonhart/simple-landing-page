@@ -1,5 +1,5 @@
 .platform {
-  width: $container-width;
+  // width: $container-width;
   margin: 0 auto;
   padding: 6rem 0;
   padding-bottom: 2rem;
@@ -41,6 +41,10 @@
     width: 40rem;
     height: 40rem;
     clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+
+    @include respond(tab-port) {
+      max-width: 100%;
+    }
   }
 }
 

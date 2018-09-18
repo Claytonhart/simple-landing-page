@@ -9,7 +9,7 @@ class About extends Component {
 
     return (
       <section className="about" id="about">
-        <div className="about-content-wrapper">
+        <div className="about-content-wrapper container">
           <h1 className="about__header">Avenue living asset management</h1>
           <h3 className="about__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi

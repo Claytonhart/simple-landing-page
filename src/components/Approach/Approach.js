@@ -10,7 +10,7 @@ class Approach extends Component {
     return (
       <section className="approach__background">
         <div className="approach">
-          <div className="approach__container">
+          <div className="approach__container container">
             <h2 className="approach__header">Our approach</h2>
             <p className="approach__paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
